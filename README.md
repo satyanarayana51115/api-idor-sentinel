@@ -35,6 +35,7 @@ sequenceDiagram
 ```
 
 ## 🖥️ Live Audit Output
+```text
 
 ======================================================================
           API OBJECT-LEVEL AUTHORIZATION AUDIT REPORT         
@@ -51,6 +52,7 @@ Result: [ PASS / PROTECTED ] (HTTP 403)
 Severity: NONE
 Audit Note: SECURE: Strict 403 Forbidden enforced on cross-tenant access.
 ----------------------------------------------------------------------
+```
 
 ## ⚙️ How to Run
 
@@ -66,4 +68,3 @@ Audit Note: SECURE: Strict 403 Forbidden enforced on cross-tenant access.
    ```
    python main.py
    ```
-   
