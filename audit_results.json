@@ -1,0 +1,18 @@
+[
+    {
+        "endpoint": "/api/v1/documents/{id}",
+        "tested_id": 102,
+        "status_code": 200,
+        "is_vulnerable": true,
+        "severity": "HIGH",
+        "summary": "BROKEN ACCESS: Resource returned without tenant ownership verification."
+    },
+    {
+        "endpoint": "/api/v2/documents/{id}",
+        "tested_id": 102,
+        "status_code": 403,
+        "is_vulnerable": false,
+        "severity": "NONE",
+        "summary": "SECURE: Strict 403 Forbidden enforced on cross-tenant access."
+    }
+]
